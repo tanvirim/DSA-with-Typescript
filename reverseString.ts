@@ -12,11 +12,6 @@ function reverseString(str:string):string{
 
 // using string methods
 
-const str2:string = "tanvir"
-
-const reverse2:string = str2.split("").reverse().join("")
-console.log(reverse2)
-
 function reverse(str:string):string{
     return str.split("").reverse().join("")
 }
