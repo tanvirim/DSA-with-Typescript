@@ -1,4 +1,4 @@
-function birthdayCakeCandles(candles) {
+function birthdayCakeCandles(candles:number[]):number {
     // Initialize variables to keep track of the maximum height and the count of tallest candles.
     let maxHeight = 0; // This will store the maximum height found so far.
     let count = 0;    // This will store the count of tallest candles.
@@ -27,7 +27,7 @@ function birthdayCakeCandles(candles) {
     return count;
 }
 
-function birthdayCakeCandles2(candles) {
+function birthdayCakeCandles2(candles:number[]):number {
     let maxHeight = 0;
     let count = 0;
     
